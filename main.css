@@ -1587,14 +1587,14 @@ body {
 body#body-hero {
   height: 100%;
   /* height: 100svh; */
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 body > section.hero {
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 main {
@@ -1634,7 +1634,7 @@ main {
   body#body-hero {
     height: 100%;
     /* height: 100svh; */
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .spaceship {
     width: 28vmin;
@@ -1668,7 +1668,7 @@ main {
   body#body-hero {
     height: 100%;
     /* height: 100svh; */
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .mars {
     bottom: auto;
