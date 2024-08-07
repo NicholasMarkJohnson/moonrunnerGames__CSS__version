@@ -342,6 +342,7 @@ body {
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 .popup {
   height: 100vh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1583,6 +1584,7 @@ body {
 
 body#body-hero {
   height: 100vh;
+  height: 100svh;
   overflow: hidden;
 }
 
@@ -1628,7 +1630,8 @@ main {
 
 @media only screen and (width >= 320px) {
   body#body-hero {
-    height: 100VH;
+    height: 100vh;
+    height: 100svh;
     overflow: hidden;
   }
   .spaceship {
@@ -1662,6 +1665,7 @@ main {
 @media only screen and (width >= 375px) {
   body#body-hero {
     height: 100vh;
+    height: 100svh;
     overflow: hidden;
   }
   .mars {
