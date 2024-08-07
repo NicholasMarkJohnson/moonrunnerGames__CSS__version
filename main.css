@@ -343,7 +343,7 @@ body {
 /* Large devices (laptops/desktops, 992px and up) */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 .popup {
-  height: 100vh;
+  height: 100%;
   height: 100svh;
   display: flex;
   align-items: center;
@@ -1585,7 +1585,7 @@ body {
 }
 
 body#body-hero {
-  height: 100vh;
+  height: 100%;
   height: 100svh;
   overflow: hidden;
 }
@@ -1632,7 +1632,7 @@ main {
 
 @media only screen and (width >= 320px) {
   body#body-hero {
-    height: 100vh;
+    height: 100%;
     height: 100svh;
     overflow: hidden;
   }
@@ -1666,7 +1666,7 @@ main {
 }
 @media only screen and (width >= 375px) {
   body#body-hero {
-    height: 100vh;
+    height: 100%;
     height: 100svh;
     overflow: hidden;
   }
