@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/main.css" />
+    <title>Moonrunner Games</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="product__grid">
+          <div class="card stacked featured">
+            <img
+              src="../img/screenshots/SidewalkSlam.png"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(1)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">Main Title</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/Sky_HighShootOut.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(2)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">skyhigh shootout</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/3Pointer.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(3)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">double kurby</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/NinjaPlace.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(4)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">great balls of fire</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/Explosion.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(5)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">explosion avenue</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/ShotImpactChurch.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(6)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">holy arrows!</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/Pirates_Level.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(7)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">a funk odyssey</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/SpaceLaser.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(8)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">lazer beams</h2>
+            </div>
+          </div>
+          <div class="card stacked">
+            <img
+              src="../img/screenshots/LevelWin.jpg"
+              alt="sidewalk slam"
+              class="card__img hover-shadow"
+              onclick="openModal();currentSlide(9)"
+            />
+            <div class="card__content">
+              <h2 class="card__title">victory!</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- The Modal/Lightbox -->
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div class="modal-content">
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+          <img src="../img/screenshots/SidewalkSlam.png" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+          <img
+            src="../img/screenshots/Sky_HighShootOut.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+          <img src="../img/screenshots/3Pointer.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+          <img src="../img/screenshots/NinjaPlace.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+          <img src="../img/screenshots/Explosion.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+          <img
+            src="../img/screenshots/ShotImpactChurch.jpg"
+            style="width: 100%"
+          />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">7 / 9</div>
+          <img src="../img/screenshots/Pirates_Level.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">8 / 9</div>
+          <img src="../img/screenshots/SpaceLaser.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides">
+          <div class="numbertext">9 / 9</div>
+          <img src="../img/screenshots/LevelWin.jpg" style="width: 100%" />
+        </div>
+
+        <!-- Next/previous controls -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Caption text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+
+        <!-- Thumbnail image controls -->
+        <div class="column">
+          <img
+            class="demo"
+            src="../img/screenshots/SidewalkSlam.png"
+            onclick="currentSlide(1)"
+            alt="Main Title"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/Sky_HighShootOut.jpg"
+            onclick="currentSlide(2)"
+            alt="skyhigh shootout"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/3Pointer.jpg"
+            onclick="currentSlide(3)"
+            alt="double kurby"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/NinjaPlace.jpg"
+            onclick="currentSlide(4)"
+            alt="great balls of fire"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/Explosion.jpg"
+            onclick="currentSlide(5)"
+            alt="explosion avenue"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/ShotImpactChurch.jpg"
+            onclick="currentSlide(6)"
+            alt="holy arrows!"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/Pirates_Level.jpg"
+            onclick="currentSlide(7)"
+            alt="a funk odyssey"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/SpaceLaser.jpg"
+            onclick="currentSlide(8)"
+            alt="lazer beams"
+          />
+
+          <img
+            class="demo"
+            src="../img/screenshots/LevelWin.jpg"
+            onclick="currentSlide(9)"
+            alt="victory!"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src="../light_box.js"></script>
+</html>
